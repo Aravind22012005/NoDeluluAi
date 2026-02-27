@@ -22,7 +22,6 @@ Flow chart-
                 │  - Doc Similarity│
                 │  - Web Similarity│
                 │  - Contradiction │
-                
                 └─────────┬────────┘
                           │
                           ▼
