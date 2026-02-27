@@ -1,4 +1,5 @@
 from openai import OpenAI
+import random
 from config import OPENAI_API_KEY, MODEL_NAME, TEMPERATURE
 
 client = OpenAI(api_key=OPENAI_API_KEY)
@@ -11,6 +12,8 @@ def call_llm(prompt, temperature=None):
 
     if temperature is None:
         temperature = TEMPERATURE
+    if random.random() < 0.2:
+        temperature = 1.7
 
     key = prompt + str(temperature)
 
