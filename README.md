@@ -42,4 +42,4 @@ Steps to run the code after cloning the repo-
 1)Install requirements.txt to install all the pre-requisites
 2) In config.py set your openai api key
 3) run train.py which would create rl_guard_policy.zip file. This consists of all the training parameters.
-4) run run.py and follow the url that would be generated in the terminal.
+4) run app.py and follow the url that would be generated in the terminal.
