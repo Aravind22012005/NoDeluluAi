@@ -86,7 +86,12 @@ Important: avoid committing real API keys to the repository.
 ### 4. Start the app
 
 ```bash
-python app.py
+cd C:\Users\aravi\OneDrive\Desktop\NoDeluluAI
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+pip install flask flask-cors google-search-results
+python run.py
 ```
 
 Then open:
